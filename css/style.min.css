@@ -1167,6 +1167,14 @@ only screen and (min-resolution:2dppx) {
     margin-bottom: 20px
 }
 
+.project-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+}
+
 .probootstrap-gallery figure:nth-of-type(3n+3) {
     margin-right: 0
 }
