@@ -352,6 +352,14 @@ a:hover {
     transition: .2s all
 }
 
+.portfolio-feed {
+
+}
+
+.portfolio-feed .probootstrap-animate {
+
+}
+
 @media screen and (max-width:768px) {
     .probootstrap-navbar .navbar-brand {
         top: 5px !important;
@@ -1202,7 +1210,7 @@ only screen and (min-resolution:2dppx) {
     margin-right: 0
 }
 
-.grid-item {
+.portfolio-grid-item {
     float: left
 }
 
@@ -1220,12 +1228,12 @@ only screen and (min-resolution:2dppx) {
     transition-property: transform, opacity, -webkit-transform
 }
 
-.grid-item,
+.portfolio-grid-item,
 .grid-sizer {
     margin-bottom: 0
 }
 
-.grid-item img,
+.portfolio-grid-item img,
 .grid-sizer img {
     max-width: 100%;
     margin-bottom: 0;
@@ -1234,14 +1242,14 @@ only screen and (min-resolution:2dppx) {
     -webkit-transition: all .3s ease-in-out
 }
 
-.two-cols .grid-item,
+.two-cols .portfolio-grid-item,
 .two-cols .grid-sizer {
     width: 49%
 }
 
 @media screen and (max-width:768px) {
 
-    .two-cols .grid-item,
+    .two-cols .portfolio-grid-item,
     .two-cols .grid-sizer {
         width: 49%
     }
@@ -1249,7 +1257,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) and (max-width:992px) {
 
-    .two-cols .grid-item img,
+    .two-cols .portfolio-grid-item img,
     .two-cols .grid-sizer img {
         margin-bottom: 10px
     }
@@ -1257,7 +1265,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) and (max-width:768px) {
 
-    .two-cols .grid-item img,
+    .two-cols .portfolio-grid-item img,
     .two-cols .grid-sizer img {
         margin-bottom: 10px
     }
@@ -1265,7 +1273,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:480px) {
 
-    .two-cols .grid-item,
+    .two-cols .portfolio-grid-item,
     .two-cols .grid-sizer {
         width: 100%;
         margin-left: 0;
@@ -1273,14 +1281,14 @@ only screen and (min-resolution:2dppx) {
     }
 }
 
-.three-cols .grid-item,
+.three-cols .portfolio-grid-item,
 .three-cols .grid-sizer {
     width: 32%
 }
 
 @media screen and (max-width:768px) {
 
-    .three-cols .grid-item,
+    .three-cols .portfolio-grid-item,
     .three-cols .grid-sizer {
         width: 48%;
         margin-bottom: 10px
@@ -1289,7 +1297,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:480px) {
 
-    .three-cols .grid-item,
+    .three-cols .portfolio-grid-item,
     .three-cols .grid-sizer {
         width: 100%;
         margin-left: 0;
@@ -1297,14 +1305,14 @@ only screen and (min-resolution:2dppx) {
     }
 }
 
-.four-cols .grid-item,
+.four-cols .portfolio-grid-item,
 .four-cols .grid-sizer {
     width: 23.5%
 }
 
 @media screen and (max-width:768px) {
 
-    .four-cols .grid-item,
+    .four-cols .portfolio-grid-item,
     .four-cols .grid-sizer {
         width: 32%;
         margin-bottom: 10px
@@ -1313,7 +1321,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:480px) {
 
-    .four-cols .grid-item,
+    .four-cols .portfolio-grid-item,
     .four-cols .grid-sizer {
         width: 100%;
         margin-left: 0;
